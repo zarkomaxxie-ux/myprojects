@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Teacher Vlog</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    background:#0b0b0f;
+    color:#e5e5e5;
+    line-height:1.7;
+}
+
+header{
+    background:linear-gradient(135deg,#140014,#300020,#6a040f);
+    padding:60px 10%;
+    border-bottom:3px solid #8b0000;
+}
+
+header h1{
+    font-size:3rem;
+    color:white;
+}
+
+header p{
+    color:#cfcfcf;
+    margin-top:10px;
+    max-width:700px;
+}
+
+nav{
+    background:#111;
+    padding:18px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:100;
+    border-bottom:1px solid #2f2f2f;
+}
+
+nav a{
+    color:#d0d0d0;
+    text-decoration:none;
+    margin:0 15px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff3c3c;
+}
+
+section{
+    width:85%;
+    margin:auto;
+    padding:60px 0;
+}
+
+h2{
+    color:#ff4040;
+    margin-bottom:20px;
+    border-left:5px solid #6d28d9;
+    padding-left:15px;
+}
+
+.card{
+    background:#15151b;
+    padding:25px;
+    margin-bottom:30px;
+    border-radius:12px;
+    border:1px solid #292929;
+    box-shadow:0 0 20px rgba(0,0,0,.4);
+}
+
+.profile{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.profile img{
+    width:300px;
+    height: 200px;
+    border-radius:12px;
+    border:3px solid #7e22ce;
+}
+
+.post-image{
+    width:100%;
+    border-radius:20px;
+    margin-top:20px;
+}
+
+.resources a{
+    color:#c084fc;
+    display:block;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#080808;
+    text-align:center;
+    padding:30px;
+    color:#888;
+    margin-top:50px;
+}
+
+.quote{
+    color:#b8b8b8;
+    font-style:italic;
+    border-left:3px solid crimson;
+    padding-left:15px;
+    margin-top:15px;
+}
+
+@media(max-width:800px){
+    header h1{
+        font-size:2rem;
+    }
+
+    .profile{
+        flex-direction:column;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Steward Peréz English Vlog</h1>
+    <p>
+        Exploring language teaching, educational realities and pedagogical reflections
+        through academic experiences in rural and urban contexts.
+    </p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#essays">Essays</a>
+    <a href="#interviews">Interviews</a>
+    <a href="#reflections">Reflections</a>
+    <a href="#resources">Resources</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card profile">
+
+        <!-- CAMBIAR FOTO -->
+        <img src="cyber.jpg" alt="Profile Picture">
+
+        <div>
+            <h3>My Digital Likes</h3>
+
+            <p><b>Movies and Games</b>
+            There's something about immersing myself in vast, dark worlds that just hits different. The Fallout series has been a constant companion—the desolation, the choices, the weight of post-apocalyptic survival. Halo, Gears of War, God of War, and GTA pull me in with their raw intensity and storytelling. And the tactical precision of Arma 3? That's where strategy players meets my name. But it's not just games. When I need to decompress, I dive into my deep likes that matches my dark, introspective mood. Fight Club its the chosen one for me, also like Se7en's gritty atmosphere and moral complexity of God fanatics. Interstellar makes me feel small and want me to travel far away of this earth. These games and films not just entertainment for me. They're mirrors reflecting something real about myself, my choices and their consequences.</p>
+        </div>
+
+    </div>
+</section>
+
+""
+<!--
+<section id="essays">
+    <h2>Scholarly Essays</h2>
+
+    <div class="card">
+        <h3>Essay Title</h3>
+        <p>Date: July 2026</p>
+
+        <p>
+            Write your essay or research synthesis here.
+        </p>
+
+        <div class="quote">
+            "Educational reflection transforms experience into professional growth."
+        </div>
+
+        <!-- AGREGAR IMAGEN -->
+        <img class="post-image" src="images/essay1.jpg">
+    </div>
+
+</section>
+<!--
+<section id="interviews">
+    <h2>Field Interviews</h2>
+
+    <div class="card">
+
+        <h3>Interview with a Teacher</h3>
+
+        <p>
+            Add the interview transcription and your critical analysis here.
+        </p>
+
+        <img class="post-image" src="images/interview1.jpg">
+
+    </div>
+</section>
+
+<section id="reflections">
+    <h2>Pedagogical Reflections</h2>
+
+    <div class="card">
+        <h3>Reflection Entry #1</h3>
+
+        <p>
+            Discuss the relationship between theory and real educational contexts.
+        </p>
+    </div>
+
+</section>
+
+<section id="resources">
+    <h2>Curated Resources</h2>
+
+    <div class="card resources">
+
+        <a href="#">APA 7 Citation Guide</a>
+        <a href="#">Educational Research Article</a>
+        <a href="#">Teaching Methodologies Resource</a>
+        <a href="#">Language Learning Tool</a>
+
+    </div>
+</section>
+
+
+<!-- =====================================================
+     COPIA ESTE BLOQUE PARA AGREGAR NUEVAS ENTRADAS
+====================================================== -->
+
+<!--
+
+<div class="card">
+
+    <h3>NEW ENTRY TITLE</h3>
+
+    <p>Date: xx/xx/2026</p>
+
+    <p>
+        Write your new post here.
+    </p>
+
+    <img class="post-image" src="images/newimage.jpg">
+
+</div>
+
+-->
+
+<footer>
+    Language Teacher Vlog | English Communicative Competence VII
+</footer>
+
+</body>
+</html>
